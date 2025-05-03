@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>التقارير - إدارة المصاريف</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="reports-container">
+    <h1>التقارير</h1>
+
+    <section class="chart-section">
+      <h2>توزيع المصروفات حسب النوع</h2>
+      <canvas id="categoryChart" width="400" height="400"></canvas>
+    </section>
+
+    <section class="chart-section">
+      <h2>المصروفات حسب الشهر</h2>
+      <canvas id="monthlyChart" width="400" height="400"></canvas>
+    </section>
+
+    <p><a href="dashboard.html">الرجوع إلى لوحة التحكم</a></p>
+  </div>
+
+  <script src="assets/chart.min.js"></script>
+  <script src="js/reports.js"></script>
+</body>
+</html>
