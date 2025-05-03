@@ -1,6 +1,7 @@
 include:
-       - /css/
-       - /js/
-       - /data/
-       - /images/
-     publish_dir: ./
+  - /html/  # ← هذا السطر هو الأهم!
+  - /css/
+  - /js/
+  - /data/
+  - /images/
+publish_dir: ./html/  # ← أخبر GitHub أن الملف الرئيسي في مجلد html
