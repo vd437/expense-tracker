@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>إنشاء حساب - إدارة المصاريف</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1>إنشاء حساب جديد</h1>
+    <form id="registerForm">
+      <label for="name">الاسم الكامل</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">البريد الإلكتروني</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">كلمة المرور</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirmPassword">تأكيد كلمة المرور</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required />
+
+      <button type="submit">إنشاء الحساب</button>
+    </form>
+    <p>لديك حساب بالفعل؟ <a href="index.html">تسجيل الدخول</a></p>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
