@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>لوحة التحكم - إدارة المصاريف</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <header>
+      <h1>مرحبًا، <span id="username">المستخدم</span></h1>
+      <button id="logoutBtn">تسجيل الخروج</button>
+    </header>
+
+    <section class="summary">
+      <h2>ملخص المصروفات</h2>
+      <p>إجمالي المصروفات: <span id="total-expense">0</span> جنيه</p>
+    </section>
+
+    <section class="actions">
+      <a href="add-expense.html" class="btn">إضافة مصروف</a>
+      <a href="reports.html" class="btn">عرض التقارير</a>
+    </section>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
