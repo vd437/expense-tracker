@@ -1,0 +1,6 @@
+include:
+       - /css/
+       - /js/
+       - /data/
+       - /images/
+     publish_dir: ./
