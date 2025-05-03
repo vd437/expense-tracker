@@ -1,0 +1,108 @@
+/* style.css */
+
+/* Reset بسيط */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* الخلفية الأساسية */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  direction: rtl;
+}
+
+/* الحاويات الأساسية */
+.login-container,
+.form-container,
+.dashboard-container,
+.reports-container {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* العناوين */
+h1, h2 {
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+
+/* الفورم */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #009688;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #00796b;
+}
+
+/* الروابط */
+a {
+  color: #009688;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* أقسام الإجراءات في الداشبورد */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.actions .btn {
+  background-color: #607d8b;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.actions .btn:hover {
+  background-color: #455a64;
+}
+
+/* شارتات */
+.chart-section {
+  margin-top: 40px;
+  text-align: center;
+  }
+  
