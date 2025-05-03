@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>إضافة مصروف - إدارة المصاريف</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>إضافة مصروف جديد</h1>
+    <form id="expenseForm">
+      <label for="category">نوع المصروف</label>
+      <select id="category" name="category" required>
+        <option value="">اختر نوعًا</option>
+        <option value="أكل">أكل</option>
+        <option value="مواصلات">مواصلات</option>
+        <option value="فواتير">فواتير</option>
+        <option value="ترفيه">ترفيه</option>
+        <option value="أخرى">أخرى</option>
+      </select>
+
+      <label for="amount">المبلغ</label>
+      <input type="number" id="amount" name="amount" required />
+
+      <label for="date">التاريخ</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="notes">ملاحظات (اختياري)</label>
+      <textarea id="notes" name="notes"></textarea>
+
+      <button type="submit">حفظ المصروف</button>
+    </form>
+    <p><a href="dashboard.html">الرجوع إلى لوحة التحكم</a></p>
+  </div>
+
+  <script src="js/expenses.js"></script>
+</body>
+        </html>
+        
